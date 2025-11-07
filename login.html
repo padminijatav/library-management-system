@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login | LibraEdge</title>
+
+  
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="loginStyle.css" />
+  <link rel="preload" as="image" href="images/login-bgimg.jpg">
+</head>
+<body>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-8 col-lg-6 login-card">
+        <div class="row g-0">
+          <!-- Left: Logo -->
+          <div class="col-md-5 d-flex logo-side">
+            <img src="images/favicon.png" alt="LibraEdge Logo" />
+          </div>
+
+          <!-- Right: Login Form -->
+          <div class="col-md-7 login-side">
+            <h3 class="text mb-4 fw-bold ">User Login</h3>
+            <form>
+              <div class="mb-3">
+                <label class="form-label">Username</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Enter username"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Password</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  placeholder="Enter password"
+                  required
+                />
+              </div>
+              <button type="submit" class="btn btn-login w-100 mb-2">
+                Login
+              </button>
+              <div class="text">
+                <a href="index.html" class="small text-primary text-decoration-none">
+                  <u>Back to Home</u>
+                </a>
+                <a href="Sign_up.html" class="forgot-btn small text-primary text-decoration-none">
+                  <u>Forgot password?</u>
+                </a>
+                
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

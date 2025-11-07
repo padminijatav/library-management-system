@@ -1,0 +1,94 @@
+.addbooks {
+  background-image: url(images/addbooks-bgimg.jpg) no-repeat center center/cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.addbooks_func {
+  background-color: #fff;
+  justify-content: center;
+  padding: auto;
+  margin: auto;
+}
+
+/* Full background */
+.addbooks-body {
+  background: url("images/addbooks-bgimg.jpg") no-repeat center center/cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Bricolage Grotesque", sans-serif;
+}
+
+/* Container box */
+.content-box {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  padding: 40px 50px;
+  max-width: 700px;
+  width: 500px;
+  min-height: 500px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+  font-size: 1.5rem;
+}
+.btn {
+  width: 180px;
+  height: 27px;
+  margin: 5px;
+}
+
+/* Title styling */
+.content-box h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+/* Buttons */
+.btn-dark {
+  background-color: #0e0202;
+  border: none;
+  color: white;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+  font-size: 1.2rem;
+}
+
+.btn-dark:hover {
+  background-color: #000;
+}
+
+/* Table styling */
+.table {
+  background-color: #fff;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.table th {
+  background-color: #e6e6e6;
+  color: #333;
+  font-weight: 600;
+}
+
+.table td {
+  background-color: #fafafa;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+  .content-box {
+    padding: 30px 25px;
+  }
+}
